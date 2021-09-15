@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'ShopProject.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'lagosisland',
-        'USER': 'postgres',
+        'NAME': '',
+        'USER': '',
         'HOST': 'localhost',
-        'PASSWORD': 'seunfunmi189226',
-        'PORT': '5432' 
+        'PASSWORD': '',
+        'PORT': '' 
     }
 }
 
